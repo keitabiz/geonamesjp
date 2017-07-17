@@ -1,4 +1,4 @@
-# [LocaNames](http://databasediv.com/ns/domain/local/)
+# [LocalNames](http://databasediv.com/ns/domain/local/)
 
 * このレポジトリでは [LocalNames](http://databasediv.com/ns/domain/local/) の概要情報を整理しています。
 * なお、 [LocalNames](http://databasediv.com/ns/domain/local/) の技術情報については [Wiki] に集約しています。
