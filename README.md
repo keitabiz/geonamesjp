@@ -5,7 +5,7 @@
 
 ## Background
 世界中の地名に対して URI を付与する基盤である [GeoNames.org](http://www.geonames.org/) は、LOD Cloud の中でも重要な地位を占めています(2014年時点で DBPedia に次ぐ第二位)。日本国内では GeoNames.jp が重要な地位を占めています。
-地方名や支庁名や地域名のURI基盤を
+統計資料の一部では、市区町村の地名に含まれない地方名や支庁名や地域名のURI基盤が必要な場面があります。
 
 ## Solution
 地方名や支庁名や地域名のURI基盤 Localnames を立ち上げました。
