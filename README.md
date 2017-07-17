@@ -1,23 +1,14 @@
-# [GeoNames.jp](http://geonames.jp/)
+# [LocaNames](http://databasediv.com/ns/domain/local/)
 
-* このレポジトリでは [GeoNames.jp](http://geonames.jp/) の概要情報を整理しています。
-* なお、 [GeoNames.jp](http://geonames.jp/) の技術情報については [Wiki](https://github.com/indigo-lab/geonamesjp/wiki) に集約しています。
-
+* このレポジトリでは [LocalNames](http://databasediv.com/ns/domain/local/) の概要情報を整理しています。
+* なお、 [LocalNames](http://databasediv.com/ns/domain/local/) の技術情報については [Wiki] に集約しています。
 
 ## Background
-世界中の地名に対して URI を付与する基盤である [GeoNames.org](http://www.geonames.org/) は、LOD Cloud の中でも重要な地位を占めています(2014年時点で DBPedia に次ぐ第二位)。しかし、日本国内では GeoNames.org が積極的に活用されているとは言い難い状況です。われわれはこの原因を以下のように考えました。
-
-* 日本地名の収録数が少ない（量の問題）
-* データのミス・不整合がある（質の問題）
-* 地名が日本語以外の言語で定義されており使いづらい（利用性の問題）
+世界中の地名に対して URI を付与する基盤である [GeoNames.org](http://www.geonames.org/) は、LOD Cloud の中でも重要な地位を占めています(2014年時点で DBPedia に次ぐ第二位)。日本国内では GeoNames.jp が重要な地位を占めています。
+地方名や支庁名や地域名のURI基盤を
 
 ## Solution
-GeoNames.org の日本版として [GeoNames.jp](http://geonames.jp/) を立ち上げました。
-
-* 都道府県～町丁目にいたる地名を収録
-* 日本語地名をそのまま使用できる簡便な URI 設計
-* HTTP 仕様に忠実な API の提供 （リダイレクト、コンテントネゴシエーション）
-* GeoNames.org のオントロジを使用した RDF の提供
+地方名や支庁名や地域名のURI基盤 Localnames を立ち上げました。
 
 ## Application
 以下のような分野への応用を期待しています。
@@ -27,9 +18,4 @@ GeoNames.org の日本版として [GeoNames.jp](http://geonames.jp/) を立ち�
 * 公共分野：[IMI 共通語彙](http://goikiban.ipa.go.jp/) における、地理識別子の選択肢のひとつとして
 
 ## ToDo
-* 表記揺らぎ、不整合の解消（元データ作成機関へのフィードバックも含む）
-* 過去地名、非公式地名など、収録範囲の拡大
-* GIS コミュニティとの連携
 * DBPedia 等の外部データセットと連携するためのリンクセットの充実
-
-
